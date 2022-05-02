@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "iran-sans";
+  src: url("./fonts//fonts_yekan/ttf/iranyekanweblight.ttf");
+  font-weight: bolder;
+}
+* {
+  font-family: "iran-sans";
+}
+@media (min-width: 1200px) {
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 537px !important;
+  }
+}
+body {
+  direction: rtl;
+  overflow-x: hidden;
+}
